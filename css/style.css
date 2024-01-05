@@ -108,6 +108,7 @@
     cursor: pointer;
 }
 
+
 .btn-sm{
     padding: 5px 10px;
     vertical-align: middle;
@@ -119,5 +120,39 @@
     justify-content: center;
     align-items: center;
     max-width: 1133px;
+    
+}
+
+.heading{
+  text-align: center;
+  margin-top: 5px;
+}
+
+.card-head{
+    background-color: bisque;
+    height: 60vh;
+}
+
+.card-item img{
+    /* height: 299px; */
+    width: 299px;
+    /* border-radius: 10px; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card-item{
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 5px 1.5px black;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
