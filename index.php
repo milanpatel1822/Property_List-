@@ -50,6 +50,11 @@ include('header.php');
     </div>
 </div> 
 
+<div class="notification">
+    <p>Welcome Sir,</p>
+    <span class="notification_program"></span>
+</div>
+
 <?php
 include('footer.php');
 ?>
