@@ -1,61 +1,81 @@
 <?php
 include('header.php');
 ?>
-<div class="overLay"></div>
 
-<section>
-    <div class="form-structor">
-        <span class="cancle" onclick="removeModal()">X </span>
-        <div class="signup slide-up">
-            <h2 class="form-title" id="signup"><span>or</span>Sign up</h2>
-            <div class="form-holder">
-                <input type="text" class="input" placeholder="Name" />
-                <input type="email" class="input" placeholder="Email" />
-                <input type="tel" class="input" placeholder="Contact No" />
-                <input type="password" class="input" placeholder="Password" />
-            </div>
-            <button class="submit-btn">Sign up</button>
-        </div>
-        <div class="login ">
-            <div class="center">
-                <h2 class="form-title" id="login"><span>or</span>Log in</h2>
-                <div class="form-holder">
-                    <input type="email" class="input" placeholder="Email" />
-                    <input type="password" class="input" placeholder="Password" />
-                </div>
-                <button class="submit-btn">Log in</button>
-            </div>
-        </div>
+
+
+
+
+<!-- Start img slider-->
+
+<div id="carouselExampleCaptions" class="carousel slide carousel-inner " data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/bg1.jpg" class="d-block w-100" id="imgs" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
     </div>
-</section>
+    <div class="carousel-item">
+      <img src="img/bg2.jpg" class="d-block w-100" id="imgs" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/bg3.jpg" class="d-block w-100" id="imgs" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
 
 <div class="card-head" value="Service">
-    <div class="heading option-heading">
-        <h3>Sell & Rent House</h3>
+  <div class="heading option-heading">
+    <h3>Sell & Rent House</h3>
+  </div>
+  <div class="card-container">
+    <div class="card-item">
+      <img src="img/bg.jpg" alt="">
+      <p class="card-text">Loremipsum.</p>
     </div>
-    <div class="card-container">
-        <div class="card-item">
-            <img src="img/bg.jpg" alt="">
-            <p class="card-text">Loremipsum.</p>
-        </div>
-        <div class="card-item">
-            <img src="img/bg.jpg" alt="">
-        </div>
-        <div class="card-item">
-            <img src="img/bg.jpg" alt="">
-        </div>
-        <div class="card-item">
-            <img src="img/bg.jpg" alt="">
-        </div>
+    <div class="card-item">
+      <img src="img/bg.jpg" alt="">
     </div>
-</div> 
+    <div class="card-item">
+      <img src="img/bg.jpg" alt="">
+    </div>
+    <div class="card-item">
+      <img src="img/bg.jpg" alt="">
+    </div>
+  </div>
+</div>
 
 <div class="notification">
-    <p>Welcome Sir,</p>
-    <span class="notification_program"></span>
+  <p>Welcome Sir,</p>
+  <span class="notification_program"></span>
 </div>
 
 <?php
 include('footer.php');
 ?>
-
