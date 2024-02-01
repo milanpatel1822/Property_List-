@@ -1,0 +1,46 @@
+.contact{
+    background-color: #F1EFEF;
+    height: 70vh;
+    width: 100%;
+}
+
+.txt-head{
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.txt-head:hover{
+    text-decoration: underline;
+    transition: 1.5s ease-in;
+}
+
+.sub-Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-input{
+    border-radius: 5px;
+    width: 80%;
+    height: 35px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.contact-input, .contact-textarea {
+    font-weight: 600;
+}
+
+.contact-textarea{
+    border-radius: 5px;
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.card-style2:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

@@ -7,6 +7,7 @@
     <title>Property List - GET YOUR DREAM HOUSE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
@@ -27,7 +28,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Contact.html">Contact Us</a>
+                <a class="nav-link" href="#Contact">Contact Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" onclick="showModal()">Login</a>
