@@ -49,32 +49,6 @@ include('header.php');
 </div>
 
 
-
-<<<<<<< HEAD
-<!-- Welcome PopUp notification  -->
-=======
-<div class="card-head" value="Service">
-  <div class="heading option-heading">
-    <h3>Sell & Rent House</h3>
-  </div>
-  <div class="card-container">
-    <div class="card-item">
-      <img src="img/bg.jpg" alt="">
-      <p class="card-text">Loremipsum.</p>
-    </div>
-    <div class="card-item">
-      <img src="img/bg.jpg" alt="">
-    </div>
-    <div class="card-item">
-      <img src="img/bg.jpg" alt="">
-    </div>
-    <div class="card-item">
-      <img src="img/bg.jpg" alt="">
-    </div>
-  </div>
-</div>
-
->>>>>>> 78a437860aa23d329343a8b89004133d5b0d8263
 <div class="notification">
   <p>Welcome Sir,</p>
   <span class="notification_program"></span>
